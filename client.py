@@ -1,8 +1,7 @@
 import asyncio
 import websockets
 
-
-SERVER_URI = "ws://localhost:8000"
+SERVER_URI = "ws://localhost:8000" #! Server comp IP
 
 async def send_message(websocket, username):
 
